@@ -1,0 +1,68 @@
+.sign:hover {
+    background-color: blue;
+    color: white;
+}
+.sign {
+    margin-top: 40px;
+    width: 150px;
+    margin-left: 80px;
+    border: none;
+    background-color: rgb(96, 165, 250);
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.form {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.ribon {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(96, 165, 250);
+    height: 80px;
+    width: 50%;
+}
+.container {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ribon h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+.main {
+    background-color: rgb(227, 222, 222);
+    width: 50%;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: rgb(130, 121, 110);
+    text-transform: uppercase;
+}
+input {
+    background-color: transparent;
+    border: solid black 1px;
+    border-radius: 3px;
+    width: 350px;
+    height: 35px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}

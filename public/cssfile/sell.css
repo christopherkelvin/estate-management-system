@@ -1,0 +1,68 @@
+.back {
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+}
+.ribon {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: rgb(96, 165, 250);
+    height: auto;
+    width: 200px;
+}
+.main {
+    background-color: rgb(227, 222, 222);
+    width: 700px;
+    height: auto;
+    padding-left: 30px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.main h2 {
+    color: rgb(81, 155, 245);
+}
+.left {
+    display: flex;
+    flex-direction: column;
+}
+.right {
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.form1 {
+    padding-top: 80px;
+}
+label {
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgb(170, 163, 153);
+}
+input {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid black 2px;
+    width: 80%;
+    height: 25px;
+    margin-right: 20px;
+}
+textarea {
+    background-color: transparent;
+    margin-right: 10px;
+}
+.button {
+    background-color: rgb(96, 165, 250);
+    margin-top: 50px;
+    float: right;
+    border: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.button:hover {
+    background-color: blue;
+}
+

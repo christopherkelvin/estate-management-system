@@ -1,0 +1,83 @@
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ribon {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(96, 165, 250);
+    height: 80px;
+    width: 70%;
+}
+.ribon h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+.main {
+    background-color: rgb(227, 222, 222);
+    width: 70%;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+.left {
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+.right {
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    padding-top: 80px;
+}
+label{
+margin-top: 10px;
+font-size: 15px;
+color: rgb(170, 163, 153);
+}
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid black 2px;
+    width: 300px;
+    height: 25px;
+    margin-right: 20px;
+}
+.divs{
+    display: flex;
+    flex: row;
+}
+.button,.log{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(96, 165, 250);
+    border: white;
+    border-radius: 2px;
+    height: 30px;
+    width: 200px;
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    text-align: center;
+    padding-top: 3px;
+}
+.button:hover, .log:hover{
+    background-color: blue;
+}
+.error{
+    /* text-red-500 text-xs mt-1 */
+    color: rgb(239, 68, 68);
+}
+
